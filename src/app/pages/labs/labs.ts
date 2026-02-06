@@ -8,10 +8,13 @@ import { CommonModule } from '@angular/common';
   styleUrl: './labs.css',
 })
 export class Labs {
-welcome = 'Hola!';
+welcome = 'Bienvenido a mi primera aplicación con Angular';
   tasks = [
     'Instalar el Angular CLI',
     'Crear proyecto',
-    'Crear componentes'
+    'Crear componente',
+    'Crear servicio',
   ];
+  name = 'Isaac';
+  age = 25;
 }
