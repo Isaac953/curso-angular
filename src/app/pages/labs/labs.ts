@@ -17,4 +17,12 @@ welcome = 'Bienvenido a mi primera aplicación con Angular';
   ];
   name = 'Isaac';
   age = 25;
+  disabled = true;
+  img = 'https://www.w3schools.com/howto/img_avatar.png';
+
+  person = {
+    name: 'Isaac',
+    age: 25,
+    avatar: 'https://www.w3schools.com/howto/img_avatar.png'
+  }
 }
