@@ -7,3 +7,4 @@ Proyecto creado en Angular.
 - Clase 03: **Creación de componentes y rutas en Angular para gestión de tareas**
 - Clase 04: **String Interpolation en Angular: Transmisión de Datos a Templates**
 - Clase 05: **Modificación de Propiedades HTML con Angular: Property Binding**
+- Clase 06: **Eventos en Angular: click, doble click y cambio de input**
