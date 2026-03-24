@@ -8,3 +8,4 @@ Proyecto creado en Angular.
 - Clase 04: **String Interpolation en Angular: Transmisión de Datos a Templates**
 - Clase 05: **Modificación de Propiedades HTML con Angular: Property Binding**
 - Clase 06: **Eventos en Angular: click, doble click y cambio de input**
+- Clase 07: **Eventos de Teclado en JavaScript: Uso de KeyDown y Change**
