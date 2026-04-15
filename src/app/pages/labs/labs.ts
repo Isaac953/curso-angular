@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -15,7 +15,7 @@ welcome = 'Bienvenido a mi primera aplicación con Angular';
     'Crear componente',
     'Crear servicio',
   ];
-  name = 'Isaac';
+  name = signal('Isaac');
   age = 25;
   disabled = true;
   img = 'https://www.w3schools.com/howto/img_avatar.png';
@@ -31,7 +31,9 @@ welcome = 'Bienvenido a mi primera aplicación con Angular';
   }
 
   changeHandler(event: Event){
-    console.log(event);
+    const input = event.target as HTMLInputElement;
+    const newValue = input.value;
+    this.name.set(newValue);
   }
 
   keydownHandler(event: KeyboardEvent){

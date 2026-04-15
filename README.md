@@ -9,3 +9,5 @@ Proyecto creado en Angular.
 - Clase 05: **Modificación de Propiedades HTML con Angular: Property Binding**
 - Clase 06: **Eventos en Angular: click, doble click y cambio de input**
 - Clase 07: **Eventos de Teclado en JavaScript: Uso de KeyDown y Change**
+- Clase 08: **Reactividad Granular con Signals en Angular**
+- Clase 09: **Reactividad en HTML: Implementación de Signals en JavaScript**
