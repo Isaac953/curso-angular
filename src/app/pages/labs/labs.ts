@@ -9,12 +9,12 @@ import { CommonModule } from '@angular/common';
 })
 export class Labs {
 welcome = 'Bienvenido a mi primera aplicación con Angular';
-  tasks = [
+  tasks = signal([
     'Instalar el Angular CLI',
     'Crear proyecto',
     'Crear componente',
     'Crear servicio',
-  ];
+  ]);
   name = signal('Isaac');
   age = 25;
   disabled = true;

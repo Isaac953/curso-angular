@@ -2,6 +2,8 @@
 
 Proyecto creado en Angular.
 
+**Módulo 1 - Introducción a Angular y Fundamentos**
+
 - Clase 01: **Desarrollo de Aplicaciones Modernas con Angular**
 - Clase 02: **Creando tu primer proyecto en Angular**
 - Clase 03: **Creación de componentes y rutas en Angular para gestión de tareas**
@@ -11,3 +13,7 @@ Proyecto creado en Angular.
 - Clase 07: **Eventos de Teclado en JavaScript: Uso de KeyDown y Change**
 - Clase 08: **Reactividad Granular con Signals en Angular**
 - Clase 09: **Reactividad en HTML: Implementación de Signals en JavaScript**
+
+**Módulo 2 - Estructuras de control en Angular**
+
+- Clase 10: **Estructuras de Control y Renderizado Dinámico en Angular**
