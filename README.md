@@ -17,3 +17,4 @@ Proyecto creado en Angular.
 **Módulo 2 - Estructuras de control en Angular**
 
 - Clase 10: **Estructuras de Control y Renderizado Dinámico en Angular**
+- Clase 11: **Gestión Dinámica de Tareas en JavaScript: Creación y Eliminación**
