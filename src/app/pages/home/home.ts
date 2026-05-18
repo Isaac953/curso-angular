@@ -1,6 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { Task } from '../../models/task.model';
+import { dateTimestampProvider } from 'rxjs/internal/scheduler/dateTimestampProvider';
+
 @Component({
   selector: 'app-home',
   imports: [CommonModule],
@@ -8,16 +11,31 @@ import { CommonModule } from '@angular/common';
   styleUrl: './home.css',
 })
 export class Home {
-  tasks = signal([
-    'Instalar el Angular CLI',
-    'Crear proyecto',
-    'Crear componente',
-    'Crear servicio',
+  tasks = signal<Task[]>([
+    {
+      id: Date.now(),
+      title: 'Crear proyecto',
+      completed: false
+    },
+    {
+      id: Date.now(),
+      title: 'Crear componentes',
+      completed: false
+    },
   ]);
 
   changeHandler(event: Event) {
     const input = event.target as HTMLInputElement;
     const newTask = input.value;
+    this.addTask(newTask);
+  }
+
+  addTask(title: string) {
+    const newTask = {
+      id: Date.now(),
+      title,
+      completed: false,
+    };
     this.tasks.update((tasks) => [...tasks, newTask])
   }
 
